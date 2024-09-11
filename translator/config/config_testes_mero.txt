@@ -1,0 +1,229 @@
+INPUT WIND DIR (VOLTAGE)
+	chan= 01
+	sensor= 051xx
+	dloc= 001
+INPUT WIND SPEED (FREQ)
+	chan= 1
+	sensor= 051xx
+	units= M/S 
+	dloc= 091
+LOC1 = LOC2 OPER VALUE
+	loc1= 991
+	loc2= 091
+	oper: *  
+	val= 1.94384
+DISPLAY VALUE
+	sloc= 001
+	scrn= 2
+	font= SMALL
+	row= 1
+	col= 01
+	width= 7
+	decpt= 0
+DISPLAY VALUE
+	sloc= 091
+	scrn= 2
+	font= SMALL
+	row= 2
+	col= 01
+	width= 7
+	decpt= 2
+DISPLAY VALUE
+	sloc= 991
+	scrn= 2
+	font= SMALL
+	row= 3
+	col= 01
+	width= 7
+	decpt= 2
+INPUT WIND DIR (VOLTAGE)
+	chan= 02
+	sensor= 051xx
+	dloc= 002
+INPUT WIND SPEED (FREQ)
+	chan= 2
+	sensor= 051xx
+	units= M/S 
+	dloc= 092
+LOC1 = LOC2 OPER VALUE
+	loc1= 992
+	loc2= 092
+	oper: *  
+	val= 1.94384
+DISPLAY VALUE
+	sloc= 002
+	scrn= 2
+	font= SMALL
+	row= 1
+	col= 22
+	width= 7
+	decpt= 0
+DISPLAY VALUE
+	sloc= 092
+	scrn= 2
+	font= SMALL
+	row= 2
+	col= 22
+	width= 7
+	decpt= 2
+DISPLAY VALUE
+	sloc= 992
+	scrn= 2
+	font= SMALL
+	row= 3
+	col= 22
+	width= 7
+	decpt= 2
+INPUT VOLTAGE
+	chan= 05
+	type= SE  
+	mult= 0.06
+	offs= 800
+	rate= 4800Hz 
+	dloc= 005
+DISPLAY VALUE
+	sloc= 005
+	scrn= 2
+	font= SMALL
+	row= 4
+	col= 01
+	width= 7
+	decpt= 2
+INPUT VOLTAGE
+	chan= 07
+	type= SE  
+	mult= 0.06
+	offs= 800
+	rate= 4800Hz 
+	dloc= 007
+DISPLAY VALUE
+	sloc= 007
+	scrn= 2
+	font= SMALL
+	row= 4
+	col= 22
+	width= 7
+	decpt= 2
+INPUT VOLTAGE
+	chan= 09
+	type= SE  
+	mult= 0.1
+	offs= -50
+	rate= 60Hz   
+	dloc= 009
+INPUT VOLTAGE
+	chan= 11
+	type= SE  
+	mult= 0.1
+	offs= 0
+	rate= 60Hz   
+	dloc= 011
+DISPLAY VALUE
+	sloc= 009
+	scrn= 2
+	font= SMALL
+	row= 5
+	col= 01
+	width= 7
+	decpt= 2
+DISPLAY VALUE
+	sloc= 011
+	scrn= 2
+	font= SMALL
+	row= 6
+	col= 01
+	width= 7
+	decpt= 0
+INPUT VOLTAGE
+	chan= 13
+	type= SE  
+	mult= 0.1
+	offs= -50
+	rate= 60Hz   
+	dloc= 013
+INPUT VOLTAGE
+	chan= 15
+	type= SE  
+	mult= 0.1
+	offs= 0
+	rate= 60Hz   
+	dloc= 015
+DISPLAY VALUE
+	sloc= 013
+	scrn= 2
+	font= SMALL
+	row= 5
+	col= 22
+	width= 7
+	decpt= 2
+DISPLAY VALUE
+	sloc= 015
+	scrn= 2
+	font= SMALL
+	row= 6
+	col= 22
+	width= 7
+	decpt= 0
+SERIAL BUFFER CHECKSUM
+	type= NMEA  
+SERIAL BUFFER TIME
+	frmt= DATE
+	delim= COMMA
+SERIAL BUFFER TIME
+	frmt= TIME
+	delim= COMMA
+SERIAL BUFFER VALUE
+	loc= 001
+	width= 3
+	decpt= 0
+	delim= COMMA
+SERIAL BUFFER VALUE
+	loc= 091
+	width= 5
+	decpt= 2
+	delim= COMMA
+SERIAL BUFFER VALUE
+	loc= 002
+	width= 3
+	decpt= 0
+	delim= COMMA
+SERIAL BUFFER VALUE
+	loc= 092
+	width= 5
+	decpt= 2
+	delim= COMMA
+SERIAL BUFFER VALUE
+	loc= 005
+	width= 7
+	decpt= 2
+	delim= COMMA
+SERIAL BUFFER VALUE
+	loc= 007
+	width= 7
+	decpt= 2
+	delim= COMMA
+SERIAL BUFFER VALUE
+	loc= 009
+	width= 5
+	decpt= 2
+	delim= COMMA
+SERIAL BUFFER VALUE
+	loc= 011
+	width= 5
+	decpt= 2
+	delim= COMMA
+SERIAL BUFFER VALUE
+	loc= 013
+	width= 5
+	decpt= 2
+	delim= COMMA
+SERIAL BUFFER VALUE
+	loc= 015
+	width= 5
+	decpt= 2
+	delim= NONE 
+SERIAL BUFFER OUT
+	chan= COM1
+	endchr= CRLF
+	delay= 00
+PGM END
