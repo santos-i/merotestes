@@ -1,2 +1,4 @@
-.alheio/
-main.py
+__pycache__/
+
+input/*
+output/*
