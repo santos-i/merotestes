@@ -11,6 +11,7 @@ from script.equipments import defineSN, mean_dir_calc
 serialNumbers = dotenv_values(".env")
 sn_ane, sn_bar, sn_th = defineSN(serialNumbers)
 
+
 file = glob.glob(f"{INPUT_PATH}*.log")[0]
 
 df = pd.read_csv(file, sep=",", header=None)

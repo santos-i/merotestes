@@ -14,7 +14,6 @@ def defineSN(dict_serialNumbers):
             if 'TH' in key: thermohygrometers.append(value)
         
         except:pass
-
     return anemometers, barometers, thermohygrometers
 
 

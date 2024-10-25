@@ -31,6 +31,7 @@ def plot_generator(
         if xlabel: fig.update_layout(xaxis_title = xlabel)
         if ylabel: fig.update_layout(yaxis_title = ylabel)
         if title: fig.update_layout(title=title)
+    fig['data'][0]['showlegend']=True
     
     return fig
 
